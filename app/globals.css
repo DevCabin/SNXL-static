@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+  --color-bg: #f7f8f8;
+  --color-ink: #1f2328;
+  --color-charcoal: #262a31;
+  --color-lime: #a6d40e;
+  --color-lime-dark: #8fb80c;
+  --color-brandred: #e8112d;
+}
+
+@theme inline {
+  --font-display: var(--font-archivo);
+  --font-mono: var(--font-space-mono);
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-ink font-mono antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-lime);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: var(--color-lime);
+    color: var(--color-ink);
+  }
+}

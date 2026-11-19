@@ -117,24 +117,24 @@ Save Gelato design templates · offline backup of repo + image-masters · approv
 - [x] 1.4 optimize-images run; public < 95MB; report 557 rows (2026-11-19: 3 passes; final = ALL images WebP, ≤1400px, q68/q80 → public/products 21MB; masters in image-masters/)
 - [x] 1.5 image-dims spot check vs sips (2026-11-19: jpg+png exact match)
 - [ ] 1.6 normalize run; catalog.json + review-flags.json + variant-review.md; no cdn urls
-- [ ] 2.1 tokens+fonts in layout/globals
-- [ ] 2.2 Header/AnnouncementBar/Footer
-- [ ] 2.3 ui primitives + shell renders in dev
-- [ ] 3.1 lib modules
-- [ ] 3.2 home page
-- [ ] 3.3 /designs + CatalogControls
-- [ ] 3.4 product page + Gallery + VariantSelector
-- [ ] 3.5 RequestForm
-- [ ] 3.6 support pages
-- [ ] 3.7 not-found + build green w/ 53 routes
-- [ ] 4.1 metadata/canonical/OG
-- [ ] 4.2 sitemap+robots
-- [ ] 4.3 JSON-LD
-- [ ] 4.4 a11y pass
-- [ ] 5.1 validate.mjs all PASS
-- [ ] 5.2 next start curl checks
-- [ ] 5.3 Formspree controlled test
-- [ ] 5.4 responsive/a11y spot check
-- [ ] 6.1 README rewrite
-- [ ] 6.2 reports/url-audit.md
-- [ ] 6.3 commits clean
+- [x] 2.1 tokens+fonts in layout/globals (2026-11-19)
+- [x] 2.2 Header/AnnouncementBar/Footer (2026-11-19)
+- [x] 2.3 ui primitives + shell renders (2026-11-19, verified via build+start)
+- [x] 3.1 lib modules (2026-11-19)
+- [x] 3.2 home page (2026-11-19)
+- [x] 3.3 /designs + CatalogControls (2026-11-19)
+- [x] 3.4 product page + Gallery + VariantSelector (2026-11-19)
+- [x] 3.5 RequestForm (2026-11-19)
+- [x] 3.6 support pages (2026-11-19)
+- [x] 3.7 not-found + build green w/ 53 routes (2026-11-19, build3 EXIT=0)
+- [x] 4.1 metadata/canonical/OG (2026-11-19, verified in served HTML)
+- [x] 4.2 sitemap+robots (2026-11-19, 60 URLs)
+- [x] 4.3 JSON-LD (2026-11-19, Product no-offers + Breadcrumb)
+- [x] 4.4 a11y pass (2026-11-19 markup level: skip link, labels, aria-live, aria-pressed, focus rings; owner visual check pending)
+- [x] 5.1 validate.mjs all PASS (2026-11-19, 8/8 gates)
+- [x] 5.2 next start curl checks (2026-11-19: 10×200 + 404 for unknown handle)
+- [x] 5.3 Formspree controlled test (2026-11-19: {"ok":true}; OWNER: delete the [TEST] submission)
+- [x] 5.4 responsive/a11y spot check (2026-11-19 markup review; owner visual pending)
+- [x] 6.1 README rewrite (2026-11-19)
+- [x] 6.2 reports/url-audit.md (2026-11-19)
+- [x] 6.3 commits clean (2026-11-19)
