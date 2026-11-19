@@ -1,0 +1,29 @@
+{
+  "name": "shirtnerdxl-static",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "normalize": "node scripts/normalize-catalog.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sanitize-html": "^2.17.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/sanitize-html": "^2.16.0",
+    "sharp": "^0.34.4",
+    "tailwindcss": "^4.1.4",
+    "typescript": "^5.9.2"
+  }
+}

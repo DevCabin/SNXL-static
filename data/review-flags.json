@@ -1,0 +1,637 @@
+{
+ "generatedAt": "2026-11-19T23:04:37.853Z",
+ "supportedSizes": [
+  "L",
+  "XL",
+  "2XL",
+  "3XL",
+  "4XL",
+  "5XL"
+ ],
+ "duplicateHandleGroups": [
+  [
+   "sunset-stroll-mechanical-marvels-branded-graphic-tee-for-big-guys-up-to-5xl",
+   "sunset-stroll-mechanical-marvels-graphic-tee-for-big-guys-up-to-5xl"
+  ],
+  [
+   "twilight-trek-mechanical-marvels-branded-graphic-tee-up-to-5xl",
+   "twilight-trek-mechanical-marvels-graphic-tee-up-to-5xl"
+  ],
+  [
+   "wrangler-hair-don-t-care",
+   "wrangler-hair-don-t-care-black"
+  ],
+  [
+   "fairly-introverted-but-willing-to-talk-about-my-jeep",
+   "fairly-introverted-but-willing-to-talk-about-my-jeep-on-dark"
+  ],
+  [
+   "be-nice-to-everyone-they-may-win-the-lotto-one-day-funny-graphic-tee-for-big-men-up-to-5xl",
+   "be-nice-to-everyone-they-may-win-the-lotto-one-day-branded-funny-graphic-tee-for-big-men-up-to-5xl"
+  ],
+  [
+   "listen-to-more-weezer",
+   "listen-to-more-weezer-nerd-rock-4ever"
+  ]
+ ],
+ "products": [
+  {
+   "handle": "1v1-me-bro-graphic-tee-bring-the-heat",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 87,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "4-wheel-drive-willys-fans-only",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 52,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "5-out-of-4-people-struggle-with-math-light-cotton-graphic-tee-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 61,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "a-robot-menace-from-beyond-space-now-showing",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 63,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "back-in-my-day-we-had-9-planets-classroom-version-funny-graphic-tee-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "back-in-my-day-we-had-9-planets-funny-graphic-tee-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "be-nice-to-everyone-they-may-win-the-lotto-one-day-funny-graphic-tee-for-big-men-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 23,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Forest Green"
+   ]
+  },
+  {
+   "handle": "be-nice-to-everyone-they-may-win-the-lotto-one-day-branded-funny-graphic-tee-for-big-men-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 23,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Forest Green"
+   ]
+  },
+  {
+   "handle": "branded-pluto-never-forget-funny-and-nerdy-mens-graphic-tees-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "embrace-the-chaos-kitty-branded-tee-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 87,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Azalea"
+   ]
+  },
+  {
+   "handle": "fairly-introverted-but-willing-to-talk-about-my-jeep",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 83,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "fairly-introverted-but-willing-to-talk-about-my-jeep-on-dark",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 53,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Dark Heather"
+   ]
+  },
+  {
+   "handle": "fist-of-fury-bruce-lee-branded-tee-on-light-colors",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 6,
+   "hiddenSizes": [],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "four-cool-bugs-john-paul-george-and-ringo-white-on-black",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "gamera-is-the-friend-of-all-children",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 81,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Graphite Heather"
+   ]
+  },
+  {
+   "handle": "get-outside-worst-case-scenario-you-die",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 67,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Military Green"
+   ]
+  },
+  {
+   "handle": "have-you-tried-turning-off-and-on-again-funny-and-nerdy-mens-graphic-tees-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 31,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Maroon"
+   ]
+  },
+  {
+   "handle": "home-run",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 60,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Dark Heather"
+   ]
+  },
+  {
+   "handle": "html-shirt-end-head-begin-body-h1-shirt",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "i-came-i-saw-i-forgot-what-i-was-doing-funny-mens-graphic-tees-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 79,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Light Blue"
+   ]
+  },
+  {
+   "handle": "i-see-you-checking-out-my-junk-premium-shirt-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 6,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "id-rather-die-than-drink-decaf",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "if-you-can-t-stop-the-waves-learn-to-surf",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "its-a-jeep-thing-on-dark-colors",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 54,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Royal"
+   ]
+  },
+  {
+   "handle": "its-a-jeep-thing-you-wouldnt-understand",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 62,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "i-d-hate-to-shoot-a-butt-like-that",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 75,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Graphite Heather"
+   ]
+  },
+  {
+   "handle": "just-doing-jeep-stuff",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 59,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "just-doing-jeep-stuff-dark",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 75,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Graphite Heather"
+   ]
+  },
+  {
+   "handle": "keyboard-warrior-tee-battle-ready-comfort",
+   "selectionMode": "strict",
+   "knownCombos": 1,
+   "unknownVariants": 26,
+   "hiddenSizes": [],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "kirk-bones-spock-and-more-in-matching-colored-text",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "kirk-scotty-bones-sulu-spock-uhura-and-chekov-t-shirt",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 55,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "listen-to-more-weezer",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 60,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Dark Heather"
+   ]
+  },
+  {
+   "handle": "listen-to-more-weezer-nerd-rock-4ever",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 39,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "mst3k-hobgoblins-names",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 75,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Graphite Heather"
+   ]
+  },
+  {
+   "handle": "nope-rope-danger-noodle",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 47,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Royal"
+   ]
+  },
+  {
+   "handle": "pluto-never-forget-funny-and-nerdy-mens-graphic-tees-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "slow-down-im-from-the-1900s-funny-graphic-tee-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 61,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "star-trek-tos-bridge-crew-first-names-white-on-black-premium-tee",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 6,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "heavyweight-unisex-crewneck-t-shirt-gildan®-5000",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 81,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Graphite Heather"
+   ]
+  },
+  {
+   "handle": "sucker-for-pain-rubiks-cube-simon-finger-puzzle",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 38,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "sunset-stroll-mechanical-marvels-branded-graphic-tee-for-big-guys-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "sunset-stroll-mechanical-marvels-graphic-tee-for-big-guys-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "support-squad-orange-controller-gamer-tee",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 85,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Graphite Heather"
+   ]
+  },
+  {
+   "handle": "the-chaos-kitty-lady-chaos-edition-branded-tee-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 61,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "they-have-a-bad-feeling-about-this",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 31,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "twilight-trek-mechanical-marvels-branded-graphic-tee-for-big-guys-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "twilight-trek-mechanical-marvels-graphic-tee-for-big-guys-up-to-5xl",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "vintage-1980-generation-x-and-proud",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "watch-out-for-snakes",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 81,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Graphite Heather"
+   ]
+  },
+  {
+   "handle": "wave-like-you-mean-it",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 86,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "were-done-for-cute-3po-and-r2-cartoon-toy-pose",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 31,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "White"
+   ]
+  },
+  {
+   "handle": "wrangler-hair-don-t-care-black",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 7,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": []
+  },
+  {
+   "handle": "wrangler-hair-don-t-care",
+   "selectionMode": "preference",
+   "knownCombos": 1,
+   "unknownVariants": 71,
+   "hiddenSizes": [
+    "S"
+   ],
+   "colorsKnown": [
+    "Light Pink"
+   ]
+  }
+ ]
+}
