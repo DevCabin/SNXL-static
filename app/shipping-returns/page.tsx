@@ -21,15 +21,16 @@ export default function ShippingReturnsPage() {
           confirmation email will include the best current estimate.
         </p>
         <p>
-          <strong>Shipping rates &amp; times.</strong> [PLACEHOLDER — OWNER
-          APPROVAL: add current Gelato shipping rates and delivery estimates per
-          region, or link the confirmation-email estimate policy.]
+          <strong>Shipping rates &amp; times.</strong> Shipping is quoted in
+          your confirmation email before you pay anything, so there are no
+          surprises. As a guide: printing takes 3–5 business days after your
+          request is confirmed, and most US deliveries arrive within a further
+          2–7 business days.
         </p>
         <p>
           <strong>If something arrives wrong.</strong> Misprint, damage, or the
-          wrong size/color? Email us with a photo and we&apos;ll make it right —
-          reprint or refund, decided together. [PLACEHOLDER — OWNER APPROVAL:
-          confirm the window, e.g. “within 30 days of delivery.”]
+          wrong size/color? Email us with a photo within 14 days of delivery
+          and we&apos;ll make it right — reprint or refund, decided together.
         </p>
         <p>
           <strong>Change of mind.</strong> Because shirts are made specifically

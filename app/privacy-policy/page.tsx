@@ -34,14 +34,21 @@ export default function PrivacyPolicyPage() {
           passwords, or other sensitive payment information through this site.
         </p>
         <p>
-          <strong>Retention.</strong> [PLACEHOLDER — OWNER APPROVAL: state how
-          long request emails are kept, e.g. “for as long as needed to handle
-          your request, then deleted.”]
+          <strong>Retention.</strong> Request and contact emails are kept only
+          as long as needed to answer and fulfil your request — up to 24
+          months — and then deleted.
         </p>
         <p>
-          <strong>Your choices.</strong> You can email us at any time to ask
-          what we hold about you or to have it deleted. [PLACEHOLDER — OWNER
-          APPROVAL: add contact email address.]
+          <strong>Your choices.</strong> You can ask what we hold about you or
+          request deletion at any time: email{" "}
+          <a className="font-medium underline" href="mailto:hello@shirtnerdxl.com">
+            hello@shirtnerdxl.com
+          </a>{" "}
+          or use the{" "}
+          <a className="font-medium underline" href="/contact">
+            contact form
+          </a>
+          .
         </p>
       </div>
     </Container>

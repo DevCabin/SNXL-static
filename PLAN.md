@@ -141,3 +141,4 @@ Save Gelato design templates · offline backup of repo + image-masters · approv
 - 2026-11-20 favicon rescued from Shopify CDN → public/favicon.png + metadata icons (commit f47cab2).
 - 2026-11-20 version bumped to 2.1.0; README status/changelog added; pushed to GitHub.
 - 2026-11-20 Gelato mockups exports analyzed: 11 connected designs missing from site (reports/missing-designs.md); exports saved to launch/gelato-exports/. BLOCKED on Shopify metadata (myshopify subdomain or Admin Products CSV) to build their pages.
+- 2026-11-20 v2.1.1: owner delegated placeholder decisions; all [PLACEHOLDER] copy resolved with sane defaults (shipping quote-in-email + 3–5 print/2–7 delivery guidance, 14-day issue window, 24-month retention, hello@shirtnerdxl.com privacy contact). Zero placeholders remain in app code; build+validate green; pushed.
