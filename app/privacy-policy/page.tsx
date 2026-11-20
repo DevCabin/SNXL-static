@@ -41,8 +41,8 @@ export default function PrivacyPolicyPage() {
         <p>
           <strong>Your choices.</strong> You can ask what we hold about you or
           request deletion at any time: email{" "}
-          <a className="font-medium underline" href="mailto:hello@shirtnerdxl.com">
-            hello@shirtnerdxl.com
+          <a className="font-medium underline" href="mailto:shirtnerdxl@gmail.com">
+            shirtnerdxl@gmail.com
           </a>{" "}
           or use the{" "}
           <a className="font-medium underline" href="/contact">

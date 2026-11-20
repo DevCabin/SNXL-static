@@ -1,6 +1,6 @@
 # ShirtNerdXL 2.0 — Static Next.js Catalog
 
-**Version 2.1.1** (see `package.json`) — feature-complete storefront: 53 static product pages, request-form ordering, full SEO, self-hosted images and favicon. **Live:** https://shirtnerdxl.com (Vercel). All validation gates passing; remaining owner tasks below.
+**Version 2.1.2** (see `package.json`) — feature-complete storefront: 53 static product pages, request-form ordering, full SEO, self-hosted images and favicon. **Live:** https://shirtnerdxl.com (Vercel). All validation gates passing; remaining owner tasks below.
 
 Inquiry-based T-shirt storefront for shirtnerdxl.com. Next.js (TypeScript, App Router) + Tailwind CSS v4, fully static-generated, hosted on Vercel. **No cart, no checkout, no database, no Shopify, no Stripe, no Gelato API.** Customers browse designs, pick size/color, and send a Formspree request; the owner confirms and fulfills manually via Gelato.
 
@@ -93,13 +93,14 @@ reports/      rescue + optimization + variant-review + url-audit
 
 ## Status & changelog
 
-- **2.1.1** — all `[PLACEHOLDER]` copy resolved (owner delegated decisions): shipping quoted in confirmation email + 3–5 biz-day print / 2–7 biz-day US delivery guidance, 14-day issue-report window, 24-month retention, privacy contact `hello@shirtnerdxl.com`.
+- **2.1.2** — contact/privacy email set to `shirtnerdxl@gmail.com` (owner-directed; replaced `hello@shirtnerdxl.com`).
+- **2.1.1** — all `[PLACEHOLDER]` copy resolved (owner delegated decisions): shipping quoted in confirmation email + 3–5 biz-day print / 2–7 biz-day US delivery guidance, 14-day issue-report window, 24-month retention.
 - **2.1.0** — favicon self-hosted (`public/favicon.png`, was Shopify CDN); README/status refresh.
 - **2.0.0** — full storefront build: home, catalog with search/tag filters, 53 SSG product pages with hybrid variant selection, Formspree request forms, support pages, sitemap/robots/JSON-LD, branded 404, validation suite (`npm run validate` 8/8 gates), Vercel deployment docs.
 - **1.x** — image rescue kit: 557/557 Shopify images archived locally (`reports/summary.json` failed: 0), optimized to ~21 MB WebP for Vercel Hobby limits.
 
 Validation snapshot (2026-11-20): `next build` green with 53 SSG routes · 10 routes curl-verified 200 + unknown handle 404 · canonical/OG/JSON-LD present · sitemap 60 URLs · Formspree controlled test `{"ok":true}` · zero `cdn.shopify.com` references in app code, data, or build.
 
-**Pending owner tasks:** delete the `[TEST]` Formspree submission · verify the `hello@shirtnerdxl.com` mailbox exists/forwards (now referenced in the privacy policy) · save Gelato design templates · offline backup incl. `image-masters/` · provide Shopify source for the 11 missing designs (see `NEXT-STEPS.md`).
+**Pending owner tasks:** delete the `[TEST]` Formspree submission · save Gelato design templates · offline backup incl. `image-masters/` · provide Shopify source for the 11 missing designs (see `NEXT-STEPS.md`).
 
 SNXL-static

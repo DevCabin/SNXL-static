@@ -37,7 +37,7 @@ The owner added these designs to Shopify weeks before the launch-package snapsho
 
 ## 2. Pending OWNER tasks (unchanged)
 - Delete the `[TEST] agent validation` Formspree submission.
-- ~~Approve `[PLACEHOLDER]` copy~~ DONE 2026-11-20 (v2.1.1, owner delegated; agent decisions): shipping quoted in confirmation email (3–5 biz-day print + 2–7 US delivery guidance), 14-day issue window, 24-month retention, privacy contact = `hello@shirtnerdxl.com`. **Verify that mailbox exists/forwards** — if not, update `app/privacy-policy/page.tsx`.
+- ~~Approve `[PLACEHOLDER]` copy~~ DONE 2026-11-20 (v2.1.1/2.1.2, owner delegated; agent decisions): shipping quoted in confirmation email (3–5 biz-day print + 2–7 US delivery guidance), 14-day issue window, 24-month retention. Public contact email = `shirtnerdxl@gmail.com` (owner-directed, v2.1.2).
 - Save Gelato designs as reusable templates (especially the 11 above before taking requests).
 - Offline backup: repo + `image-masters/` (full-res originals live ONLY there).
 - Optional: larger favicon master (current `public/favicon.png` is 59×59 from Shopify CDN); enable Formspree Turnstile.
