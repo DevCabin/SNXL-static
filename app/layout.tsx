@@ -35,6 +35,11 @@ export const metadata: Metadata = {
     description:
       "Bold, humorous, geeky graphic T-shirts in sizes up to 5XL. Request-based ordering, no payment collected online.",
   },
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: ["/favicon.png"],
+    apple: [{ url: "/favicon.png" }],
+  },
 };
 
 export default function RootLayout({
