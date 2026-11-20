@@ -143,3 +143,4 @@ Save Gelato design templates · offline backup of repo + image-masters · approv
 - 2026-11-20 Gelato mockups exports analyzed: 11 connected designs missing from site (reports/missing-designs.md); exports saved to launch/gelato-exports/. BLOCKED on Shopify metadata (myshopify subdomain or Admin Products CSV) to build their pages.
 - 2026-11-20 v2.1.1: owner delegated placeholder decisions; all [PLACEHOLDER] copy resolved with sane defaults (shipping quote-in-email + 3–5 print/2–7 delivery guidance, 14-day issue window, 24-month retention, hello@shirtnerdxl.com privacy contact). Zero placeholders remain in app code; build+validate green; pushed.
 - 2026-11-20 v2.1.2: owner directed all public email mentions → shirtnerdxl@gmail.com (privacy page + docs). Pushed.
+- 2026-11-20 v2.1.3: bugfix — tag nav links did not re-filter /designs during soft navigation (CatalogControls useState never re-synced with initialTag prop); added useEffect sync; SSR ?tag= verified. Pushed.

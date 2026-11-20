@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Product } from "@/lib/types";
 import ProductGrid from "./ProductGrid";
 
@@ -17,6 +17,12 @@ export default function CatalogControls({
   const router = useRouter();
   const [q, setQ] = useState("");
   const [tag, setTag] = useState(initialTag || "");
+
+  // Re-sync when navigating via tag links (e.g. header nav) while already on
+  // /designs — soft navigation updates the prop but not useState on its own.
+  useEffect(() => {
+    setTag(initialTag || "");
+  }, [initialTag]);
 
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase();

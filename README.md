@@ -1,6 +1,6 @@
 # ShirtNerdXL 2.0 — Static Next.js Catalog
 
-**Version 2.1.2** (see `package.json`) — feature-complete storefront: 53 static product pages, request-form ordering, full SEO, self-hosted images and favicon. **Live:** https://shirtnerdxl.com (Vercel). All validation gates passing; remaining owner tasks below.
+**Version 2.1.3** (see `package.json`) — feature-complete storefront: 53 static product pages, request-form ordering, full SEO, self-hosted images and favicon. **Live:** https://shirtnerdxl.com (Vercel). All validation gates passing; remaining owner tasks below.
 
 Inquiry-based T-shirt storefront for shirtnerdxl.com. Next.js (TypeScript, App Router) + Tailwind CSS v4, fully static-generated, hosted on Vercel. **No cart, no checkout, no database, no Shopify, no Stripe, no Gelato API.** Customers browse designs, pick size/color, and send a Formspree request; the owner confirms and fulfills manually via Gelato.
 
@@ -93,6 +93,7 @@ reports/      rescue + optimization + variant-review + url-audit
 
 ## Status & changelog
 
+- **2.1.3** — bugfix: header tag nav links (`/designs?tag=…`) now update the catalog filter during soft navigation (state re-synced from URL via `useEffect` in `CatalogControls`).
 - **2.1.2** — contact/privacy email set to `shirtnerdxl@gmail.com` (owner-directed; replaced `hello@shirtnerdxl.com`).
 - **2.1.1** — all `[PLACEHOLDER]` copy resolved (owner delegated decisions): shipping quoted in confirmation email + 3–5 biz-day print / 2–7 biz-day US delivery guidance, 14-day issue-report window, 24-month retention.
 - **2.1.0** — favicon self-hosted (`public/favicon.png`, was Shopify CDN); README/status refresh.
