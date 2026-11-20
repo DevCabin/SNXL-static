@@ -1,5 +1,7 @@
 # ShirtNerdXL 2.0 — Static Next.js Catalog
 
+**Version 2.1.0** (see `package.json`) — feature-complete storefront: 53 static product pages, request-form ordering, full SEO, self-hosted images and favicon. Pre-deployment state: all validation gates passing; owner tasks pending (see below).
+
 Inquiry-based T-shirt storefront for shirtnerdxl.com. Next.js (TypeScript, App Router) + Tailwind CSS v4, fully static-generated, hosted on Vercel. **No cart, no checkout, no database, no Shopify, no Stripe, no Gelato API.** Customers browse designs, pick size/color, and send a Formspree request; the owner confirms and fulfills manually via Gelato.
 
 > Resumable agent build plan & progress log: see `PLAN.md`.
@@ -77,6 +79,7 @@ components/   Header, Footer, Gallery, VariantSelector, RequestForm, ProductCard
 data/         catalog.json (generated), review-flags.json (generated), config.ts
 lib/          catalog, pricing, variants, seo, types
 public/products/  optimized images (committed, ~21 MB)
+public/favicon.png  self-hosted brand favicon (rescued from Shopify CDN)
 scripts/      download-images.mjs, optimize-images.mjs, normalize-catalog.mjs,
               validate.mjs, image-dims.mjs
 launch/       original handoff package (read-only source)
@@ -86,5 +89,15 @@ reports/      rescue + optimization + variant-review + url-audit
 ## Image rescue kit (historical)
 
 `scripts/download-images.mjs` re-downloads any missing Shopify CDN images into `public/products/` (run `node scripts/download-images.mjs --dry-run` first). See `README image rescue.md`. After any rescue run: re-run `npm run optimize-images && npm run normalize`.
+
+## Status & changelog
+
+- **2.1.0** — favicon self-hosted (`public/favicon.png`, was Shopify CDN); README/status refresh.
+- **2.0.0** — full storefront build: home, catalog with search/tag filters, 53 SSG product pages with hybrid variant selection, Formspree request forms, support pages, sitemap/robots/JSON-LD, branded 404, validation suite (`npm run validate` 8/8 gates), Vercel deployment docs.
+- **1.x** — image rescue kit: 557/557 Shopify images archived locally (`reports/summary.json` failed: 0), optimized to ~21 MB WebP for Vercel Hobby limits.
+
+Validation snapshot (2026-11-20): `next build` green with 53 SSG routes · 10 routes curl-verified 200 + unknown handle 404 · canonical/OG/JSON-LD present · sitemap 60 URLs · Formspree controlled test `{"ok":true}` · zero `cdn.shopify.com` references in app code, data, or build.
+
+**Pending owner tasks:** delete the `[TEST]` Formspree submission · approve `[PLACEHOLDER]` copy (privacy retention, shipping rates/window, contact email) · save Gelato design templates · offline backup incl. `image-masters/` · Vercel import + DNS switch + Shopify cancellation (explicit approval only).
 
 SNXL-static
