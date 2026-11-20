@@ -5,6 +5,7 @@
 Inquiry-based T-shirt storefront for shirtnerdxl.com. Next.js (TypeScript, App Router) + Tailwind CSS v4, fully static-generated, hosted on Vercel. **No cart, no checkout, no database, no Shopify, no Stripe, no Gelato API.** Customers browse designs, pick size/color, and send a Formspree request; the owner confirms and fulfills manually via Gelato.
 
 > Resumable agent build plan & progress log: see `PLAN.md`.
+> Next-session handoff (missing designs, owner tasks, parked items): see `NEXT-STEPS.md`.
 
 ## Quick start
 
