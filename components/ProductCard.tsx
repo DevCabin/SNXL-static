@@ -5,7 +5,14 @@ import { formatPrice, FROM_PRICE } from "@/lib/pricing";
 
 export default function ProductCard({ product }: { product: Product }) {
   // Get the image to display - prefer primaryImage, fallback to first gallery image
-  const img = product.primaryImage || (product.gallery.length > 0 ? product.gallery[0] : null);
+  let img = null;
+  
+  if (product.primaryImage) {
+    img = product.primaryImage;
+  } else if (product.gallery && product.gallery.length > 0) {
+    img = product.gallery[0];
+  }
+  
   return (
     <li>
       <Link
