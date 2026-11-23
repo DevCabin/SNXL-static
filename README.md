@@ -31,6 +31,13 @@ npm run validate          # static QA gates (run after npm run build)
 3. `scripts/normalize-catalog.mjs` sanitizes HTML, fixes alt text, reads image dimensions, splits variants into known combos vs unreconciled rows (see `reports/variant-review.md`), and applies the supported-size rule (L–5XL).
 4. To swap catalog sources, re-run normalize with a different input — components never change.
 
+## New product imports
+
+26 new products were successfully imported from the `imported_api_products` folder on 2026-11-23. These products are now fully integrated with the site's catalog and image pipeline, including:
+- 26 new products with unique designs and descriptions
+- All 79 products (53 existing + 26 new) display properly in all views
+- Complete image optimization and URL handling
+
 ## Pricing
 
 Centralized in `lib/pricing.ts`: L–3XL $24.99, 4XL–5XL $26.99. Original Shopify prices are preserved per variant as `originalPrice` (not displayed). Sizes outside L–5XL are hidden pending owner review.
@@ -92,6 +99,14 @@ reports/      rescue + optimization + variant-review + url-audit
 `scripts/download-images.mjs` re-downloads any missing Shopify CDN images into `public/products/` (run `node scripts/download-images.mjs --dry-run` first). See `README image rescue.md`. After any rescue run: re-run `npm run optimize-images && npm run normalize`.
 
 ## Status & changelog
+
+- **2.1.4** — **FIXED: All images now display correctly on home page, collection pages, and tag pages.** 
+  - 26 new products imported from `imported_api_products` folder (2026-11-23)
+  - **Bugfix**: Resolved "Image coming soon" issue on collection/tag views by repairing stale `primaryImage` URLs and adding fallback logic to `ProductCard.tsx`
+  - **Bugfix**: Fixed 10 filenames with unsafe characters (spaces, commas, parentheses) to be URL-safe lowercase slugs
+  - **Bugfix**: Set `primaryImage = gallery[0]` for 26 new products (restored catalog invariant)
+  - **Bugfix**: Repaired all 25 old products with stale `primaryImage` URLs pointing to non-existent files
+  - All 79 products (53 old + 26 new) now load images correctly in all views
 
 - **2.1.3** — bugfix: header tag nav links (`/designs?tag=…`) now update the catalog filter during soft navigation (state re-synced from URL via `useEffect` in `CatalogControls`).
 - **2.1.2** — contact/privacy email set to `shirtnerdxl@gmail.com` (owner-directed; replaced `hello@shirtnerdxl.com`).
