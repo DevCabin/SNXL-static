@@ -4,7 +4,8 @@ import type { Product } from "@/lib/types";
 import { formatPrice, FROM_PRICE } from "@/lib/pricing";
 
 export default function ProductCard({ product }: { product: Product }) {
-  const img = product.primaryImage;
+  // Get the image to display - prefer primaryImage, fallback to first gallery image
+  const img = product.primaryImage || (product.gallery.length > 0 ? product.gallery[0] : null);
   return (
     <li>
       <Link
