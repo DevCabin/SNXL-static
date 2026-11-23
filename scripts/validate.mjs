@@ -20,13 +20,14 @@ function gate(name, ok, detail = '') {
   if (!ok) failures++;
 }
 
-// (a) 53 products
-gate('a: 53 products', products.length === 53, `got ${products.length}`);
+// (a) product count (53 original + 26 imported 2026-11)
+gate('a: 79 products (53 original + 26 imported)', products.length === 79, `got ${products.length}`);
 
 // (b) every primary + gallery image file exists
 let missing = [];
 for (const p of products) {
   if (!p.primaryImage) missing.push(`${p.handle}:no-primary`);
+  else if (!fs.existsSync(path.join(root, 'public', p.primaryImage.url))) missing.push(`${p.handle}:primary-missing:${p.primaryImage.url}`);
   for (const g of p.gallery) {
     if (!fs.existsSync(path.join(root, 'public', g.url))) missing.push(`${p.handle}:${g.url}`);
   }
@@ -79,7 +80,7 @@ gate('f: zero cdn.shopify.com in app/data', cdnHits.length === 0, cdnHits.join('
 const prerenderDir = path.join(root, '.next', 'server', 'app', 'products');
 let htmlCount = 0;
 try { htmlCount = fs.readdirSync(prerenderDir).filter(f => f.endsWith('.html')).length; } catch { /* not built */ }
-gate('g: 53 prerendered product pages', htmlCount === 53, `got ${htmlCount}`);
+gate('g: prerendered product pages match catalog', htmlCount === products.length, `got ${htmlCount} / ${products.length}`);
 
 // (h) sitemap source covers products (runtime check done via curl in 5.2)
 const sitemapSrc = fs.readFileSync(path.join(root, 'app', 'sitemap.ts'), 'utf8');
