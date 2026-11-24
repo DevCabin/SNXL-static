@@ -11,7 +11,7 @@ export default function HomePage() {
       <section className="bg-charcoal text-white">
         <Container className="py-16 md:py-24 text-center">
           <h1 className="font-display text-4xl uppercase leading-tight tracking-tight sm:text-6xl">
-            Wear your <span className="text-lime">obsession</span>.
+            Wear your <span className="text-brandred">obsession</span>.
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">
             Bold, humorous, geeky graphic tees — retro monsters, deadpan jokes,
